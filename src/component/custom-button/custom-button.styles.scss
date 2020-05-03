@@ -1,0 +1,44 @@
+.btn{
+    padding: 1rem;
+    border-radius: 1px;
+    background-color: black;
+    color: white;
+    border: none;
+
+
+
+    
+  &:hover{
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+      outline: none;
+  }
+}
+
+.inverted{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+   
+
+    &:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    }
+}
+
+
+.signWithGoogle{
+    background-color: #4285f4;
+    color: white;
+
+    &:hover{
+    background-color: #357ae8;
+    color: white;
+    border: none;
+
+    }
+}

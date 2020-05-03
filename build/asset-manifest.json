@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dangolden123/cloth-pro.git/static/css/main.eb5a65c3.chunk.css",
+    "main.js": "/dangolden123/cloth-pro.git/static/js/main.d26ee255.chunk.js",
+    "main.js.map": "/dangolden123/cloth-pro.git/static/js/main.d26ee255.chunk.js.map",
+    "runtime-main.js": "/dangolden123/cloth-pro.git/static/js/runtime-main.be255fcf.js",
+    "runtime-main.js.map": "/dangolden123/cloth-pro.git/static/js/runtime-main.be255fcf.js.map",
+    "static/js/2.1f1c313e.chunk.js": "/dangolden123/cloth-pro.git/static/js/2.1f1c313e.chunk.js",
+    "static/js/2.1f1c313e.chunk.js.map": "/dangolden123/cloth-pro.git/static/js/2.1f1c313e.chunk.js.map",
+    "index.html": "/dangolden123/cloth-pro.git/index.html",
+    "precache-manifest.8e5ee61106488dfb198968f2c908fc2d.js": "/dangolden123/cloth-pro.git/precache-manifest.8e5ee61106488dfb198968f2c908fc2d.js",
+    "service-worker.js": "/dangolden123/cloth-pro.git/service-worker.js",
+    "static/css/main.eb5a65c3.chunk.css.map": "/dangolden123/cloth-pro.git/static/css/main.eb5a65c3.chunk.css.map",
+    "static/js/2.1f1c313e.chunk.js.LICENSE.txt": "/dangolden123/cloth-pro.git/static/js/2.1f1c313e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be255fcf.js",
+    "static/js/2.1f1c313e.chunk.js",
+    "static/css/main.eb5a65c3.chunk.css",
+    "static/js/main.d26ee255.chunk.js"
+  ]
+}
