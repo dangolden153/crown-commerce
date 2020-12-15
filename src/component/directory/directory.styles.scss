@@ -1,6 +1,28 @@
-.directory-menu{
-    display: flex;
-    width: 100%; 
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+ .directory-menu{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
  }
+
+
+ 
+ @media screen and (max-width: 800px){
+    .directory-menu{
+        display: grid;
+        grid-template-columns: 180px 180px;
+    grid-template-rows: 240px 240px 350px;
+    grid-gap: 22px 5px;
+    }
+}
+ 
+
+
+
+
+
+// .directory-menu{
+//     display: flex;
+//     width: 100%; 
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//  }

@@ -46,3 +46,14 @@
 }
 
 }
+
+@media screen and (max-width: 800px){
+      .Collection-Item{
+          width: 100%;
+
+          .btn{
+              display: block;
+              opacity: .8;
+          }
+      }
+}

@@ -4,15 +4,20 @@ import './checkout_Items.styles.scss'
 import {connect} from 'react-redux';
 import {removeCartItem} from '../../redux/cart/cart.action'
 import { AddItem} from '../../redux/cart/cart.action'
+import img from '../../assets/section3.jpg'
 
 const CheckoutItems  =({CartItem,clearItems,removeItem, addItem }) =>{
     const {name,price,imageUrl,quantity} = CartItem
     return (
 <div className="checkout_Items">
+
+    <div className="img_name">
     <div className="img_container">
-        <img src={imageUrl} alt="img"/>
+        <img src={img} alt="img"/>
     </div>
     <span className="name">{name}</span>
+    </div>
+    
     <span className="quantity">
     <div className="arrow" onClick={() => removeItem(CartItem)}>&#10094;</div>
     <span className="value">{quantity}</span>

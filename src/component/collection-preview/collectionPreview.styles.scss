@@ -14,3 +14,17 @@
 }
 
 }
+
+@media screen and (max-width: 800px){
+  .Collection-Preview  {
+      align-items: center;
+    
+
+      .preview{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px 10px;
+        width: 100%;
+    }
+    }
+}

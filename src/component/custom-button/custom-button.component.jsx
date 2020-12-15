@@ -5,9 +5,7 @@ const CustomButton = ({children, signWithGoogle, inverted, ...otherProps})=>(
     <button className= { `
     ${inverted? 'inverted' : ''}
     ${signWithGoogle? 'signWithGoogle' : ''}  btn`} 
-    {...otherProps}>
-       {children}
-    </button>
+    {...otherProps}> {children} </button>
 )
 
 export default CustomButton;

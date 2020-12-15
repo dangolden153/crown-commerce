@@ -6,7 +6,6 @@ import {selectCurrentUser} from './redux/user/user.select'
 import CheckoutPage from './pages/checkoutPage/checkoutPage.component';
 import './App.css';
 
-
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shoPage/shopPage.component';
 import Header from './component/Header/Header.component';
@@ -41,9 +40,9 @@ authListener(){
 
 
 
-componentWillUnmount(){
-  this.unsubcribeUser();
-}
+// componentWillUnmount(){
+//   this.unsubcribeUser();
+// }
 
 render(){
   return (
@@ -52,13 +51,11 @@ render(){
     <div>
 
   <Header/>
-
    <Switch>
 <Route exact path='/' component = {HomePage} />
 <Route path='/shop' component = {ShopPage} />
 <Route exact path='/checkoutPage' component= {CheckoutPage} />
-<Route exact path='/Signin' 
-render = {()=> this.props.CurrentUser ? (<Redirect to='/' />) : <SignInUp/>}  />
+<Route exact path='/Signin' render = {()=> this.props.CurrentUser ? (<Redirect to='/' />) : <SignInUp/>}  />
       
    </Switch>    
       

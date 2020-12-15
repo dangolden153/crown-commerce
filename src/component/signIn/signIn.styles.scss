@@ -15,3 +15,12 @@ h2{
 
 
 
+@media screen and (max-width: 800px){
+      .sign-in{
+          width: 80vw;
+
+          .btn-container{
+              align-items: center;
+          }
+      }
+}

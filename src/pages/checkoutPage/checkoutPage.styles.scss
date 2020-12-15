@@ -36,3 +36,28 @@
 }
 
 }
+
+@media screen and (max-width: 800px){
+      .checkoutPage{
+          width: 90%;
+
+          .Description{
+              display: none;
+              opacity: 0;
+              visibility: hidden;
+
+          }
+
+          .HeaderBlock{
+            &:last-child{
+                width: 23%;
+            }
+          }
+
+          .total{
+              margin-top: 30px;
+          }
+      }
+
+      
+}

@@ -44,11 +44,12 @@ console.error(error)
     render(){
         return(
 <div  className='sign-up'>
+<h2>SIGN UP TO HAVE AN ACCOUNT</h2>
     <form>
     <FormInput
     name='DisplayName'
     type='text'
-    value = {this.DisplayName}
+    value = {this.state.DisplayName}
     label = 'DisplayName'
     handleChange = {this.handleChange}
     required
@@ -56,7 +57,7 @@ console.error(error)
     <FormInput
     name='email'
     type='email'
-    value = {this.email}
+    value = {this.state.email}
     label = 'email'
     handleChange = {this.handleChange}
     required
@@ -64,7 +65,7 @@ console.error(error)
     <FormInput
     name='password'
     type='password'
-    value = {this.password}
+    value = {this.state.password}
     label = 'password'
     handleChange = {this.handleChange}
     required
@@ -72,7 +73,7 @@ console.error(error)
     <FormInput
     name='comfirmPassword'
     type='password'
-    value = {this.comfirmPassword}
+    value = {this.state.comfirmPassword}
     label = 'comfirm Password'
     handleChange = {this.handleChange}
     required

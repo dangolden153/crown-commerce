@@ -18,9 +18,7 @@ const Header = ({CurrentUser,hidden}) => (
             <OptionLink to='/shop'>
                 SHOP
             </OptionLink>
-            <OptionLink to='/shop'>
-                CONTACT
-            </OptionLink>
+            
           
 
             {
@@ -29,7 +27,7 @@ const Header = ({CurrentUser,hidden}) => (
         <OptionDiv onClick = {()=>auth.signOut() }
         >SIGN OUT</OptionDiv>)
         :
-     (<OptionLink to='/signin'>SIGN <span>IN</span> </OptionLink>
+     (<OptionLink to='/signin'> <span>SIGN IN</span> </OptionLink>
 )
 }
 <CartIcon/>

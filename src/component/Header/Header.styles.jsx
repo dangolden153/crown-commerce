@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 
 export const optioncontainerstyles = css`
     padding: 10px 15px;
+
+    @media screen and (max-width: 800px){
+        padding: 8px;
+
+    }
     `
 
 export const HeaderContainer = styled.div`
@@ -11,8 +16,13 @@ export const HeaderContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
-    padding: 10px;
+    margin-bottom: 25px; 
+    padding: 10px; 
+
+    @media screen and (max-width: 800px){
+        padding: 8px 0;
+        align-items: center;
+    }
     `
     ;
 
@@ -22,13 +32,15 @@ export const HeaderContainer = styled.div`
     `
 
     export const OptionsContainer = styled.div`
-    width: 40%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-items: flex-end;
     font-size: 1rem;
     cursor: pointer;
+
+    @media screen and (max-width: 800px){
+        width: 54%;    }
     `
 
     export const OptionLink = styled(Link)`
