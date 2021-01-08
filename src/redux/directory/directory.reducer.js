@@ -5,7 +5,7 @@ const INITIAL_STATE = {
         size:'grid1',
         id:1,
         linkUrl:'shop/hats',
-    imageurl:'https://www.irishtweeds.com/image/cache/data/aHatman%20Aussie/Wax-Hat-Aussie-Style---Back-600x600.jpg'
+    imageurl:`${require('../../assets/section2.jpg')}`
      },
         {
             title:'Caps',
